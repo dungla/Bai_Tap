@@ -9,11 +9,13 @@ public class Problem1 {
 	public static double g(double x, double y)
 	{
 		return Math.cos(2 * x) + y * y - y + 1;
+		// Sử dụng hàm pow để tính lũy thừa.
 	}
 	
 	public static double f(double x)
 	{
 		return (Math.log(x * x + 1) + Math.sqrt(x * x * x * x + 1)) / (x * x - x + 1);
+		// Tương tự, sử dụng pow cho x*x và x*x*x*x
 	}
 	
 	public static void main(String argv[])
